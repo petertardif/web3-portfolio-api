@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 
-export const getNfts = (req: Request, res: Response) => {
-	// add logic to retrieve nfts from the blockchain
+export const getNfts = (req: Request, res: Response): void => {
+	// Add logic to retrieve NFTs from the blockchain
 	res.json({ nfts: [] });
 };

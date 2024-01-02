@@ -1,7 +1,7 @@
-import Routes from './routes/index';
 import express, { Application, Request, Response } from 'express';
 import helmet from 'helmet';
 import cors from 'cors';
+import Routes from './routes/index';
 
 const app: Application = express();
 
